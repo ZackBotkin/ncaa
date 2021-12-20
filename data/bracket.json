@@ -1,0 +1,388 @@
+{
+    "left": {
+        "1": {
+            "1": {
+                "1": {
+                    "1": {
+                        "1": {
+                            "team": "gonzaga",
+                            "seed": 1
+                        },
+                        "2": {
+                            "team": "norfolk st",
+                            "seed": 16
+                        }
+                    },
+                    "2": {
+                        "1": {
+                            "team": "oklahoma",
+                            "seed": 8
+                        },
+                        "2": {
+                            "team": "missouri",
+                            "seed": 9
+                        }
+                    }
+                },
+                "2": {
+                    "1": {
+                        "1": {
+                            "team": "creighton",
+                            "seed": 5
+                        },
+                        "2": {
+                            "team": "uscb",
+                            "seed": 12
+                        }
+                    },
+                    "2": {
+                        "1": {
+                            "team": "virginia",
+                            "seed": 4
+                        },
+                        "2": {
+                            "team": "ohio",
+                            "seed": 13
+                        }
+                    }
+                }
+            },
+            "2": {
+                "1": {
+                    "1": {
+                        "1": {
+                            "team": "usc",
+                            "seed": 6
+                        },
+                        "2": {
+                            "team": "drake",
+                            "seed": 11
+                        }
+                    },
+                    "2": {
+                        "1": {
+                            "team": "kansas",
+                            "seed": 3
+                        },
+                        "2": {
+                            "team": "eastern wash",
+                            "seed": 14
+                        }
+                    }
+                },
+                "2": {
+                    "1": {
+                        "1": {
+                            "team": "oregon",
+                            "seed": 7
+                        },
+                        "2": {
+                            "team": "vcu",
+                            "seed": 10
+                        }
+                    },
+                    "2": {
+                        "1": {
+                            "team": "iowa",
+                            "seed": 2
+                        },
+                        "2": {
+                            "team": "grand canyon",
+                            "seed": 15
+                        }
+                    }
+                }
+
+            }
+        },
+        "2": {
+            "1": {
+                "1": {
+                    "1": {
+                        "1": {
+                            "team": "michigan",
+                            "seed": 1
+                        },
+                        "2": {
+                            "team": "texas southern",
+                            "seed": 16
+                        }
+                    },
+                    "2": {
+                        "1": {
+                            "team": "lsu",
+                            "seed": 8
+                        },
+                        "2": {
+                            "team": "st bonaventure",
+                            "seed": 9
+                        }
+                    }
+                },
+                "2": {
+                    "1": {
+                        "1": {
+                            "team": "colorado",
+                            "seed": 5
+                        },
+                        "2": {
+                            "team": "georgetown",
+                            "seed": 12
+                        }
+                    },
+                    "2": {
+                        "1": {
+                            "team": "florida state",
+                            "seed": 4
+                        },
+                        "2": {
+                            "team": "unc greensboro",
+                            "seed": 13
+                        }
+                    }
+                }
+            },
+            "2": {
+                "1": {
+                    "1": {
+                        "1": {
+                            "team": "byu",
+                            "seed": 6
+                        },
+                        "2": {
+                            "team": "ucla",
+                            "seed": 11
+                        }
+                    },
+                    "2": {
+                        "1": {
+                            "team": "texas",
+                            "seed": 3
+                        },
+                        "2": {
+                            "team": "abilene christian",
+                            "seed": 14
+                        }
+                    }
+                },
+                "2": {
+                    "1": {
+                        "1": {
+                            "team": "uconn",
+                            "seed": 7
+                        },
+                        "2": {
+                            "team": "maryland",
+                            "seed": 10
+                        }
+                    },
+                    "2": {
+                        "1": {
+                            "team": "alabama",
+                            "seed": 2
+                        },
+                        "2": {
+                            "team": "iona",
+                            "seed": 15
+                        }
+                    }
+                }
+
+            }
+
+        }
+    },
+    "right": {
+        "1": {
+            "1": {
+                "1": {
+                    "1": {
+                        "1": {
+                            "team": "baylor",
+                            "seed": 1
+                        },
+                        "2": {
+                            "team": "hartford",
+                            "seed": 16
+                        }
+                    },
+                    "2": {
+                        "1": {
+                            "team": "north carolina",
+                            "seed": 8
+                        },
+                        "2": {
+                            "team": "wisconsin",
+                            "seed": 9
+                        }
+                    }
+                },
+                "2": {
+                    "1": {
+                        "1": {
+                            "team": "vilanova",
+                            "seed": 5
+                        },
+                        "2": {
+                            "team": "winthrop",
+                            "seed": 12
+                        }
+                    },
+                    "2": {
+                        "1": {
+                            "team": "purdue",
+                            "seed": 4
+                        },
+                        "2": {
+                            "team": "north texas",
+                            "seed": 13
+                        }
+                    }
+                }
+            },
+            "2": {
+                "1": {
+                    "1": {
+                        "1": {
+                            "team": "texas tech",
+                            "seed": 6
+                        },
+                        "2": {
+                            "team": "utah st",
+                            "seed": 11
+                        }
+                    },
+                    "2": {
+                        "1": {
+                            "team": "arkansas",
+                            "seed": 3
+                        },
+                        "2": {
+                            "team": "colgate",
+                            "seed": 14
+                        }
+                    }
+                },
+                "2": {
+                    "1": {
+                        "1": {
+                            "team": "florida",
+                            "seed": 7
+                        },
+                        "2": {
+                            "team": "virginia tech",
+                            "seed": 10
+                        }
+                    },
+                    "2": {
+                        "1": {
+                            "team": "ohio st",
+                            "seed": 2
+                        },
+                        "2": {
+                            "team": "oral roberts",
+                            "seed": 15
+                        }
+                    }
+                }
+
+            }
+        },
+        "2": {
+            "1": {
+                "1": {
+                    "1": {
+                        "1": {
+                            "team": "illinois",
+                            "seed": 1
+                        },
+                        "2": {
+                            "team": "drexel",
+                            "seed": 16
+                        }
+                    },
+                    "2": {
+                        "1": {
+                            "team": "loyola chicago",
+                            "seed": 8
+                        },
+                        "2": {
+                            "team": "georgia tech",
+                            "seed": 9
+                        }
+                    }
+                },
+                "2": {
+                    "1": {
+                        "1": {
+                            "team": "tennessee",
+                            "seed": 5
+                        },
+                        "2": {
+                            "team": "oregon st",
+                            "seed": 12
+                        }
+                    },
+                    "2": {
+                        "1": {
+                            "team": "oklahoma st",
+                            "seed": 4
+                        },
+                        "2": {
+                            "team": "liberty",
+                            "seed": 13
+                        }
+                    }
+                }
+            },
+            "2": {
+                "1": {
+                    "1": {
+                        "1": {
+                            "team": "san diego st",
+                            "seed": 6
+                        },
+                        "2": {
+                            "team": "syracuse",
+                            "seed": 11
+                        }
+                    },
+                    "2": {
+                        "1": {
+                            "team": "west virginia",
+                            "seed": 3
+                        },
+                        "2": {
+                            "team": "morehead st",
+                            "seed": 14
+                        }
+                    }
+                },
+                "2": {
+                    "1": {
+                        "1": {
+                            "team": "clemson",
+                            "seed": 7
+                        },
+                        "2": {
+                            "team": "rutgers",
+                            "seed": 10
+                        }
+                    },
+                    "2": {
+                        "1": {
+                            "team": "houston",
+                            "seed": 2
+                        },
+                        "2": {
+                            "team": "cleveland st",
+                            "seed": 15
+                        }
+                    }
+                }
+
+            }
+
+        }
+    }
+}
