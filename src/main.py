@@ -1,16 +1,12 @@
-
-
 import json
-f = open('data/bracket.json')
-
-data = json.load(f)
-
-import pdb
-pdb.set_trace()
+from bracket import Bracket
 
 
 def main():
-    print("Yes")
+    f = open('data/bracket.json')
+    data = json.load(f)
+    bracket = Bracket(data)
+    bracket.run()
 
 if __name__ == '__main__':
     main()
