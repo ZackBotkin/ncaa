@@ -6,7 +6,7 @@ def main():
     f = open('data/bracket.json')
     data = json.load(f)
     bracket = Bracket(data)
-    bracket.run()
+    bracket.run(display_history=True)
 
 if __name__ == '__main__':
     main()
