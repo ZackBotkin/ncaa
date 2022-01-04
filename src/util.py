@@ -36,8 +36,27 @@ def get_winner(side, run_history):
             run_history
         )
 
+def calculate_score(team, disable_chance=True):
+    score = team['seed']
+    if 'injured_list' in team:
+        injured_list = team['injured_list']
+        if len(injured_list) < 1:
+            pass
+        elif len(injured_list) < 3:
+            score += 1
+        elif len(injured_list) < 5:
+            score += 2
+        else:
+            score += 3
+
+    return score
+
 def winner_heuristic(team_one, team_two, run_history):
-    if team_one['seed'] < team_two['seed']:
+
+    team_one_score = calculate_score(team_one)
+    team_two_score = calculate_score(team_two)
+
+    if team_one_score < team_two_score:
         run_history.append(
             '#%d %s defeats #%d %s' % (
                 team_one['seed'],

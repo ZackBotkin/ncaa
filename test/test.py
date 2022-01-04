@@ -1,6 +1,9 @@
 import unittest
 from src.bracket import Bracket
-from src.util import winner_heuristic, get_winner
+from src.util import (
+    winner_heuristic, get_winner,
+    calculate_score
+)
 
 class TestBracketMethod(unittest.TestCase):
 
@@ -29,12 +32,35 @@ class TestBracketMethod(unittest.TestCase):
             "team" : self.team_four_name,
             "seed" : self.team_four_seed
         }
+        self.injured_team_name = "Unfortunate"
+        self.injured_team_seed = 1
+        self.badly_injured_team = {
+            "team" : self.injured_team_name,
+            "seed" : self.injured_team_seed,
+            "injured_list": [
+                {
+                    "name": "Joe Johnson"
+                },
+                {
+                    "name": "John Joeson"
+                },
+                {
+                    "name": "Niko my cousiiiin"
+                }
+            ]
+        }
 
     def test_winner_heuristic(self):
         winner = winner_heuristic(
             self.team_one, self.team_two, []
         )
         self.assertEqual(winner["team"], self.team_one_name)
+
+        ## a #1 seed slips behind a 2 seed due to injury
+        winner = winner_heuristic(
+            self.team_two, self.badly_injured_team, []
+        )
+        self.assertEqual(winner["team"], self.team_two_name)
 
     def test_get_winner(self):
 
@@ -53,6 +79,17 @@ class TestBracketMethod(unittest.TestCase):
         winner = get_winner(_input, run_history)
         self.assertEqual(
             winner["team"], self.team_one_name
+        )
+
+    def test_calculate_score(self):
+
+        score = calculate_score(self.team_one)
+        self.assertEqual(score, self.team_one_seed)
+
+        score = calculate_score(self.badly_injured_team)
+        self.assertEqual(
+            score,
+            self.injured_team_seed + 2
         )
 
 

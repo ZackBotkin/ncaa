@@ -1,0 +1,18 @@
+{
+    "wins": 30,
+    "losses": 10,
+    "players": [
+        {
+            "name": "Zack Botkin",
+            "injured": false,
+            "points": 2000
+        }
+    ],
+    "schedule": [
+        {
+            "opponent": "indiana",
+            "win": true
+        }
+    ],
+    "seed": 1
+}
